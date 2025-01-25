@@ -1,0 +1,73 @@
+@-moz-document domain("make.com") {
+:root{
+    --imt-primary: #458588;                     /* primary violet rgb */
+    --imt-primary-gradient-from: #282828;       /* sidebar bg */
+    --imt-primary-gradient-to: #282828;         /* sidebar bg */
+    --imt-aside-nav-item-color: #ebdbb2         /* sidebar text color */
+    --imt-aside-nav-active-item-color: #ebdbb2  /* sidebar text active colorxt active color */
+    --imt-body-bg: #ebdbb2;                     /* main viewport bg */
+    --imt-body-color: #3c3836;
+    --dmo-color-primary-600: #458588;           /* run once button color */
+    --imt-secondary: #83a598;
+    --imt-blue: #458588;
+    --imt-indigo: #b16286;
+    --imt-purple: #b16286;
+    --imt-pink: #d3869b;
+    --imt-red: #fb4934;
+    --imt-orange: #d65d0e;
+    --imt-yellow: #d79921;
+    --imt-green: #98971a;
+    --imt-teal: #83a598;
+    --imt-cyan: #458588;
+}
+
+.imt body, .layout-types{
+      background:#ebdbb2;
+}
+a.list-group-item:hover{
+    background: #fbf1c7;
+}
+
+.imt body.with-aside.with-sub-aside .aside-sub, .executions[_ngcontent-ng-c2136330636]{
+    background: #d5c4a1;
+}
+
+[_nghost-ng-c437685327]{
+    background: #fbf1c7
+}
+
+.dmo-bg-white {
+	background-color: #fbf1c7 !important;
+}
+
+.checkout-plan[_ngcontent-ng-c2399427815] {
+	border: 1px solid #d5c4a1;
+	background-color: #fbf1c7;
+}
+
+.imt.inspector-edit .content header:not(.aside-info) > .with-new-toolbar, .imt.inspector-test .content header:not(.aside-info) > .with-new-toolbar, .imt.inspector-live .content header:not(.aside-info) > .with-new-toolbar, .imt .inspector-edit .content header:not(.aside-info) > .with-new-toolbar, .imt .inspector-test .content header:not(.aside-info) > .with-new-toolbar, .imt .inspector-live .content header:not(.aside-info) > .with-new-toolbar {
+	background-color: #fbf1c7;
+}
+
+.dmo-absolute.imt.dmo-shadow-lg.dmo-rounded-lg, .dmo-bg-select, .favourite-panel{
+    background-color: #fbf1c7 !important;
+}
+
+input[type=text], .form-control{
+    background-color: #fbf1c7;
+}
+
+.search{
+    	border: 1px solid #d5c4a1;
+}
+
+.imt, .imt .text-muted, .execution-item[_ngcontent-ng-c1266942413] {
+  color: #282828 !important;
+}
+
+.scenario-properties-title[_ngcontent-ng-c356163797],
+.execution-section-title[_ngcontent-ng-c3441617364],
+.execution-item-description[_ngcontent-ng-c1266942413] {
+    color: #458588;
+}
+}
